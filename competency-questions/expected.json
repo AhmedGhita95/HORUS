@@ -1,0 +1,68 @@
+{
+  "CQ1": {
+    "question": "Who is present?",
+    "columns": [
+      "person"
+    ],
+    "rows": [
+      [
+        "nurse"
+      ],
+      [
+        "patient"
+      ]
+    ]
+  },
+  "CQ2": {
+    "question": "What action happens, and who performs it?",
+    "columns": [
+      "action",
+      "person"
+    ],
+    "rows": [
+      [
+        "pushing",
+        "nurse"
+      ]
+    ]
+  },
+  "CQ3": {
+    "question": "Where does it happen?",
+    "columns": [
+      "action",
+      "place"
+    ],
+    "rows": [
+      [
+        "pushing",
+        "corridor"
+      ]
+    ]
+  },
+  "CQ4": {
+    "question": "What procedures are described, and which actions belong to each?",
+    "columns": [
+      "procedure",
+      "action"
+    ],
+    "rows": [
+      [
+        "patient transfer",
+        "pushing"
+      ]
+    ]
+  },
+  "CQ5": {
+    "question": "What states are described, and who or what do they apply to?",
+    "columns": [
+      "state",
+      "entity"
+    ],
+    "rows": [
+      [
+        "seated",
+        "patient"
+      ]
+    ]
+  }
+}
